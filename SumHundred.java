@@ -1,6 +1,6 @@
 package module1;
 
-
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 
 public class SumHundred {
 
@@ -15,6 +15,8 @@ sum = sum + i;
  
 }
 System.out.println("the sum is  " +sum);	
+System.out.println("**"); 
+
 	
 	}
 
